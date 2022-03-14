@@ -30,3 +30,14 @@ ctrl-w t           ⮂  Move to the top leftmost window (t is mnemonic for "top"
 ctrl-w b           ⮂  Move to the bottom rightmost window (b ios mnemonic for "bottom")
 
 ctrl-p p           ⮂  Move to the previous (last accessed) window
+
+ctrl-w r           ⮂  Rotate windows down or to the right
+ctrl-w shift-r     ⮂  Rotate windows up or to the left
+
+ctrl-w x           ⮂  Exchange two windows
+
+ctrl-w shift-k     ⮂  Move the current window to the top of the screen, using the full width of the screen
+ctrl-w shift-j     ⮂  Move the current window to the bottom of the screen, using the full width of the screen
+ctrl-w shift-h     ⮂  Move the current window to the left of the screen, using the full height of the screen
+ctrl-w shift-l     ⮂  Move the current window to the right of the screen, using the full height of the screen
+ctrl-w shift-t     ⮂  Move the current window to a new tab
