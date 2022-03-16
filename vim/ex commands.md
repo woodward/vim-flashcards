@@ -262,3 +262,8 @@ gdd  ⮂  Delete the line into register g
 
 :vimgrep def **/*.ex      ⮂  Search in all Elixir files for "def" (includes deps folder)
 :vimgrep def lib/**/*.ex  ⮂  Search in all Elixir files for "def"
+
+:resize -4                ⮂  Decreases the current horizontal window size by 4 lines
+:resize +4                ⮂  Increases the current horizontal window size by 4 lines
+:resize n                 ⮂  Set the horizontal current window size to n lines
+:vertical resize n        ⮂  Set the current window width to n

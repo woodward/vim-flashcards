@@ -41,3 +41,12 @@ ctrl-w shift-j     ⮂  Move the current window to the bottom of the screen, usi
 ctrl-w shift-h     ⮂  Move the current window to the left of the screen, using the full height of the screen
 ctrl-w shift-l     ⮂  Move the current window to the right of the screen, using the full height of the screen
 ctrl-w shift-t     ⮂  Move the current window to a new tab
+
+ctrl-w =          ⮂  Try to resize all windows equally
+ctrl-w -          ⮂  Decrease the current window height by one line
+ctrl-w +          ⮂  Increase the current window height by one line
+ctrl-w <          ⮂  Decrease the current window width by one line
+ctrl-w >          ⮂  Increase the current window width by one line
+ctrl-w |          ⮂  Resize the current window width to the widest size possible
+zn <enter>        ⮂  Set the current window height to n
+

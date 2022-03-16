@@ -112,6 +112,7 @@ a        ⮂  Around
 8j       ⮂  Jump down 8 lines 
 f"       ⮂  Go ahead in the line to the double quote 
 "        ⮂  Bring up the list of buffers 
+z        ⮂  Move the cursor to the top of the screen
 
 
 
