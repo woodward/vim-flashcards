@@ -267,3 +267,18 @@ gdd  ⮂  Delete the line into register g
 :resize +4                ⮂  Increases the current horizontal window size by 4 lines
 :resize n                 ⮂  Set the horizontal current window size to n lines
 :vertical resize n        ⮂  Set the current window width to n
+
+:ls      ⮂  List the buffers
+:files   ⮂  List the buffers
+:buffers ⮂  List the buffers
+
+:ls!     ⮂  List all buffers including the unlisted ones
+
+Buffer status flags (shown with :ls!):
+
+u  ⮂  Unlisted buffer
+%  ⮂  Buffer for the current window
+#  ⮂  Buffer you switch to with the :edit # command
+a  ⮂  An active buffer
+-  ⮂  Buffer has modifiable option turned off
++  ⮂  Indicates a modified buffer
