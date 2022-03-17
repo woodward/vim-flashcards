@@ -49,4 +49,3 @@ ctrl-w <          ⮂  Decrease the current window width by one line
 ctrl-w >          ⮂  Increase the current window width by one line
 ctrl-w |          ⮂  Resize the current window width to the widest size possible
 zn <enter>        ⮂  Set the current window height to n
-

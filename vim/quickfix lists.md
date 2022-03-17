@@ -20,7 +20,7 @@ This puts "local" at the beginning of the line
 :cprev (or :cp)       ⮂  Previous global location
 :copen                ⮂  Open the global quickfix table
 :cdo                  ⮂  Do an action over every entry in the global list
-:cwin                 ⮂  See the last quickfix list
+:cwin (or :cwindow)   ⮂  See the last quickfix list
 :cclose               ⮂  Close the quickfix window
 
 :lnext       ⮂  Next location
