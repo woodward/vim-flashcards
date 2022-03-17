@@ -282,3 +282,33 @@ u  ⮂  Unlisted buffer
 a  ⮂  An active buffer
 -  ⮂  Buffer has modifiable option turned off
 +  ⮂  Indicates a modified buffer
+
+:ball     ⮂  Edit all args or buffers
+:sball    ⮂  Edit all args or buffers (and opens them in new windows)
+:unhide   ⮂  Edit all loaded buffers
+:sunhide  ⮂  Edit all loaded buffers (opens them in new windows)
+:badd file ⮂  Add file to list
+
+:bunload    ⮂  Unload the current buffer from memory
+:bunload!   ⮂  Unload the current buffer from memory without saving it
+:bdelete    ⮂  Unload the current buffer and delete it from the buffer list
+:bdelete!   ⮂  Unload the current buffer and delete it from the buffer list without saving it
+
+:buffer  [n]  ⮂  Move to buffer n
+:sbuffer [n]  ⮂  Move to buffer n, opening a new window
+:bnext   [n]  ⮂  Move to the nth next buffer
+:sbnext  [n]  ⮂  Move to the nth next buffer, opening a new window
+
+:bNext   [n]    ⮂  Move the next next buffer
+:sbNext  [n]    ⮂  Move the next next buffer, opening a new window
+:bprevious [n]  ⮂  Move to the nth previous buffer
+:sbprevious [n] ⮂  Move to the nth previous buffer, opening a new window
+
+:bfirst    ⮂  Move to the first buffer
+:sbfirst   ⮂  Move to the first buffer, opening a new window
+:blast     ⮂  Move to the last buffer
+:sblast    ⮂  Move to the last buffer, opening a new window
+
+:bmod [n]   ⮂  Move to the nth modified buffer
+:sbmod [n]  ⮂  Move to the nth modified buffer, opening a new window
+
