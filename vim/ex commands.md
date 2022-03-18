@@ -312,3 +312,8 @@ a  ⮂  An active buffer
 :bmod [n]   ⮂  Move to the nth modified buffer
 :sbmod [n]  ⮂  Move to the nth modified buffer, opening a new window
 
+:stag[!]  tag   ⮂  Splits the window to display the location for the tag found (can be used with the help system)
+
+:tabnew filename  ⮂  Open a new tab
+:tabclose         ⮂  Close the current tab
+:tabonly          ⮂  Close all other tabs

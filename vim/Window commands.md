@@ -49,3 +49,15 @@ ctrl-w <          ⮂  Decrease the current window width by one line
 ctrl-w >          ⮂  Increase the current window width by one line
 ctrl-w |          ⮂  Resize the current window width to the widest size possible
 zn <enter>        ⮂  Set the current window height to n
+
+ctrl-w ] or ctrl-w ^  ⮂  Split the window and open a window above the current window
+ctrl-w g              ⮂  Splits the window, and creates a new window above the current window. In the new window, vim performs the command :tselect tag
+ctrl-w g              ⮂  Splits the window, and creates a new window above the current window. In the new window, vim performs the command :tjump tag
+ctrl-w f              ⮂  Splits the window and edit the filename under the cursor
+ctrl-w shift-f        ⮂  Splits the window and edits the filename under the cursor
+ctrl-w g f            ⮂  Opens the file under the cursor in a new tab (only if the file exists)
+ctrl-w g shift-f      ⮂  Opens the file under the cursor in a new tab and positions the cursor on the line specified by the number following the filename in the first window
+
+ctrl-pagedown         ⮂  Move one tab to the right
+ctrl-pageup           ⮂  Move one tab to the left
+
