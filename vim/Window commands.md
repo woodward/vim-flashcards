@@ -61,3 +61,5 @@ ctrl-w g shift-f      ⮂  Opens the file under the cursor in a new tab and posi
 ctrl-pagedown         ⮂  Move one tab to the right
 ctrl-pageup           ⮂  Move one tab to the left
 
+ctrl-w q              ⮂  Same as :quit command
+
