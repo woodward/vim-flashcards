@@ -61,5 +61,9 @@ ctrl-w g shift-f      ⮂  Opens the file under the cursor in a new tab and posi
 ctrl-pagedown         ⮂  Move one tab to the right
 ctrl-pageup           ⮂  Move one tab to the left
 
-ctrl-w q              ⮂  Same as :quit command
-
+ctrl-w q              ⮂  Quit the current window.  Same as :quit command
+ctrl-w c              ⮂  Close the current window.  If the window is on a tab and it's the last window for the tab, the window and the tab are closed
+:close[!]             ⮂  Close the current window (the ! makes it close even if there are changes)
+ctrl-w o              ⮂  Close all of the windows except the current window
+:only[!]              ⮂  Close all of the windows except the current window (the ! closes them even if there are changes)
+:hide[cmd]            ⮂  Close the current window and hide the buffer; execute cmd if it is present  
