@@ -1,0 +1,1 @@
+"    ⮂  Bring up the list of registers (what plugin does this come from? I don't seem to need https://github.com/tversteeg/registers.nvim)
