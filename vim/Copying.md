@@ -20,3 +20,5 @@ y9G       ⮂  Copy from cursor to line number 13
 "bcommand ⮂  Do command with register b
 "f4yy     ⮂  Yank four lines into register f
 "fp       ⮂  Place yanked text below the cursor
+
+Jeff Schomay has this:  keymap("v", "p", '"_dP', opts) which keeps the last item in the paste buffer so you can paste multiple times (?)
