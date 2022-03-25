@@ -114,5 +114,6 @@ f"       ⮂  Go ahead in the line to the double quote
 "        ⮂  Bring up the list of buffers 
 z        ⮂  Move the cursor to the top of the screen
 
+:set paste  ⮂  Turn off auto indentation when pasting code (:set nopaste to turn auto-indentation back on)  
 
 
