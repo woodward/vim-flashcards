@@ -116,4 +116,4 @@ z        ⮂  Move the cursor to the top of the screen
 
 :set paste  ⮂  Turn off auto indentation when pasting code (:set nopaste to turn auto-indentation back on)  
 
-
+ctrl-x ctrl-l  ⮂  Show line completions (ctrl-n or ctrl-p to move through this list; ctrl-e halts the match without substituting)
