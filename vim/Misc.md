@@ -117,3 +117,7 @@ z        ⮂  Move the cursor to the top of the screen
 :set paste  ⮂  Turn off auto indentation when pasting code (:set nopaste to turn auto-indentation back on)  
 
 ctrl-x ctrl-l  ⮂  Show line completions; in insert mode, type a few characters, and then ctrl-x ctrl-l (ctrl-n or ctrl-p to move through this list; ctrl-e halts the match without substituting)
+ctrl-x ctrl-t  ⮂  Show thesauraus completions; in insert mode, type a few characters, and then ctrl-x ctrl-t
+ctrl-x ctrl-k  ⮂  Show dictionary completions; in insert mode, type a few characters, and then ctrl-x ctrl-k
+
+insert in visual column mode  ⮂  Highlight area with ctrl-v, shift-i, add text, ESC twice
