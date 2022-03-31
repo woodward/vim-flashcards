@@ -37,3 +37,8 @@ gD                                            ⮂  Go to declaration
 	map('n','<leader>=', '<cmd>lua vim.lsp.buf.formatting()<CR>')
 	map('n','<leader>ai','<cmd>lua vim.lsp.buf.incoming_calls()<CR>')
 	map('n','<leader>ao','<cmd>lua vim.lsp.buf.outgoing_calls()<CR>')
+
+:lua print(vim.inspect(vim.lsp.buf_get_clients()))  ⮂  Show whether an LSP client is attached to the current buffer
+
+:lua vim.lsp.stop_client(vim.lsp.get_active_clients())   and then  :edit   ⮂  To force reload LSP - stop all clients, then reload the buffer
+

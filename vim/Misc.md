@@ -121,3 +121,7 @@ ctrl-x ctrl-t  ⮂  Show thesauraus completions; in insert mode, type a few char
 ctrl-x ctrl-k  ⮂  Show dictionary completions; in insert mode, type a few characters, and then ctrl-x ctrl-k
 
 insert in visual column mode  ⮂  Highlight area with ctrl-v, shift-i, add text, ESC twice
+
+:lua print(vim.fn.stdpath("data"))  ⮂  Print something (in this case the standard path "data" which is ~/.local/share/nvim)
+
+:lua vim.lsp.set_log_level("debug")  and then  :lua vim.cmd('e'..vim.lsp.get_log_path())   ⮂  To see log output
