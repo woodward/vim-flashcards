@@ -23,6 +23,9 @@ This puts "local" at the beginning of the line
 :cwin (or :cwindow)   ⮂  See the last quickfix list
 :cclose               ⮂  Close the quickfix window
 
+:colder [n]  ⮂  Load the older list of errors (optional n to load the nth older list of errors)
+:cnewer [n]   ⮂  Load the newer list of errors (optional n to load the nth older list of errors)
+
 :lnext       ⮂  Next location
 :lprev       ⮂  Previous location
 :lopen       ⮂  Open the quickfix table for locations
