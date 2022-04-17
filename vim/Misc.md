@@ -125,3 +125,7 @@ insert in visual column mode  ⮂  Highlight area with ctrl-v, shift-i, add text
 :lua print(vim.fn.stdpath("data"))  ⮂  Print something (in this case the standard path "data" which is ~/.local/share/nvim)
 
 :lua vim.lsp.set_log_level("debug")  and then  :lua vim.cmd('e'..vim.lsp.get_log_path())   ⮂  To see log output
+
+:mksession mysession.vim  ⮂  Makes a session and stores it in "mysession.vim"
+:source mysession.vim     ⮂  Re-establish or load this session
+:set nowrap               ⮂  Don't wrap the lines of text (it scrolls off to the right of the screen)
