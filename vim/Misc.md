@@ -134,3 +134,8 @@ insert in visual column mode  ⮂  Highlight area with ctrl-v, shift-i, add text
 xp                        ⮂  Swap two characters
 ddp                       ⮂  Swap two lines
 ctrl-f                    ⮂  Bring up list of recent commands
+
+g-  ⮂  Maps to :earlier
+g+  ⮂  Maps to :later
+From Jeff Schomay - figure out the difference between undo and earlier!
+https://coderwall.com/p/twr_bw/time-traveling-in-vim
