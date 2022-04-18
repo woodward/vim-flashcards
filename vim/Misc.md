@@ -129,3 +129,8 @@ insert in visual column mode  ⮂  Highlight area with ctrl-v, shift-i, add text
 :mksession mysession.vim  ⮂  Makes a session and stores it in "mysession.vim"
 :source mysession.vim     ⮂  Re-establish or load this session
 :set nowrap               ⮂  Don't wrap the lines of text (it scrolls off to the right of the screen)
+:set wrap                 ⮂  Wrap the lines of text
+
+xp                        ⮂  Swap two characters
+ddp                       ⮂  Swap two lines
+ctrl-f                    ⮂  Bring up list of recent commands
