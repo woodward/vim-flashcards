@@ -317,3 +317,7 @@ a  ⮂  An active buffer
 :tabnew filename  ⮂  Open a new tab
 :tabclose         ⮂  Close the current tab
 :tabonly          ⮂  Close all other tabs
+
+ctrl-f (when in ex window) or q:      ⮂  Open the command line window
+q/      ⮂  Search history window
+q?      ⮂  Search history window (backwards)
