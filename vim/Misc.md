@@ -139,3 +139,6 @@ g-  ⮂  Maps to :earlier
 g+  ⮂  Maps to :later
 From Jeff Schomay - figure out the difference between undo and earlier!
 https://coderwall.com/p/twr_bw/time-traveling-in-vim
+
+:vg                  ⮂  Invert a global search; find lines which do NOT match this pattern
+:vg/.*TEST..*PROD/d  ⮂  Find lines which do NOT have TEST.*PROD in them, and delete them
