@@ -8,6 +8,8 @@ c/pattern ⮂  Change from cursor to pattern
 cn        ⮂  Change from cursor to next pattern
 cG        ⮂  Change from cursor to end of file
 c9G       ⮂  Change from cursor to line number 13
+cc        ⮂  Change current line
+
 
 
 
