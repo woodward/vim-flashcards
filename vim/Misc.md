@@ -47,16 +47,6 @@ gE  ⮂   End of previous Word
 
 * (resp. #) ⮂  Go to next (resp. previous) occurrence of the word under the cursor
 
-0    ⮂  Go to column 0
-^    ⮂  Go to first character on the line
-$    ⮂  Go to the last column
-g_   ⮂  Go to the last character on the line
-fa   ⮂  Go to next occurrence of the letter a on the line. , (resp. ;) will find the next (resp. previous) occurrence
-t,   ⮂  Go to just before the character ,
-3fx  ⮂  Find the 3rd occurrence of x on this line
-F and T ⮂ like f and t but backward
-dt"  ⮂ remove everything until the "
-
 <ctrl>-w h  ⮂  Go to window on the left
 <ctrl>-w l  ⮂  Go to window on the right
 <ctrl>-w j  ⮂  Go to window on the top
@@ -124,7 +114,10 @@ a        ⮂  Around
 8j       ⮂  Jump down 8 lines 
 f"       ⮂  Go ahead in the line to the double quote 
 "        ⮂  Bring up the list of buffers 
-z        ⮂  Move the cursor to the top of the screen
+
+z <enter> ⮂  Move the cursor to the top of the screen
+z.        ⮂  Move the cursor to the middle of the screen
+z-        ⮂  Move the cursor to the bottom of the screen
 
 :set paste  ⮂  Turn off auto indentation when pasting code (:set nopaste to turn auto-indentation back on)  
 
@@ -160,3 +153,5 @@ https://coderwall.com/p/twr_bw/time-traveling-in-vim
 <ctrl>-h       ⮂  Left
 <ctrl>-n       ⮂  Down
 <ctrl>-p       ⮂  Up
+
+<ctrl-g        ⮂  Show the current line number

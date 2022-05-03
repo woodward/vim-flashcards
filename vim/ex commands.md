@@ -135,12 +135,6 @@ CTRL-E  ⮂  To scroll the screen up
 CTRL-Y  ⮂  To scroll the screen down 
 ESC     ⮂  To quit substituting
 
-/which        Search for which
-cwthat <ESC>  Change to that
-n             Repeat search
-n             Repeat search, skip a change
-.             Repeat change (if appropriate)
-(Etc.)
 
 :g/pattern/ command      ⮂  Apply a command across all relevant lines in a file
 :g/# FIXME/d             ⮂  Delete all lines with FIXME comments on them
