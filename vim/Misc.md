@@ -32,6 +32,7 @@ For a plugin on GitHub, they will have a `doc` directory with a text file in the
 
 ~/.local/share/nvim  ⮂  Where Neovim stores plugins, LSP servers, etc.
 ~/.config/nvim       ⮂  Where Neovim stores config info
+~/.cache/nvim        ⮂  Where Neovim stores cache stuff
 
 gc (while in visual mode)                      ⮂  Comment line using the Comment plugin
 <shift>j or <shift>-k (while in visual mode)   ⮂  Move lines up or down  
