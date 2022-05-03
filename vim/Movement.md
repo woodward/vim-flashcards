@@ -3,6 +3,26 @@
 ``  ⮂  Return to the exact position of the previous mark or context after a move
 ''  ⮂  Return to the beginning of the line of the previous mark or context
 
+%  ⮂  Jump to the closing parentheses (or [ or {) and back again
+
+w   ⮂   Go to the start of the following word
+b   ⮂   Go to the start of the previous word
+e   ⮂   Go to the end of this word
+
+W   ⮂   Go to the start of the following WORD
+B   ⮂   Go to the start of the previous WORD
+E   ⮂   Go to the end of this WORD.
+ge  ⮂   End of previous word
+gE  ⮂   End of previous Word
+)   ⮂   Beginning of next sentence
+(   ⮂   Beginning of previous sentence
+}   ⮂   Beginning of next paragraph
+{   ⮂   Beginning of previous paragraph
+]]  ⮂   Beginning of next section
+[[  ⮂   Beginning of previous section
+][  ⮂   End of next section
+[]  ⮂   End of previous section
+
 
 See here:
 https://github.com/unblevable/quick-scope#moving-across-a-line
@@ -17,6 +37,7 @@ The character motions can take a preceding count, but in practice, Vim users ten
 ;         ⮂  Repeat the last character motion in the original direction
 ,         ⮂  Repeat the last character motion in the opposite direction
 
+gg   ⮂  Shortcut for 1G - go to the beginning of the file
 
 nG        ⮂  Go to line number n
 G         ⮂  Go to the last line in the file
@@ -33,6 +54,7 @@ F and T ⮂ like f and t but backward
 dt"  ⮂ remove everything until the "
 +    ⮂ Go to first non-blank character of previous line
 -    ⮂ Go to first non-blank character of next line
+
 
 <enter>    ⮂  Go to first non-blank character of next line
 g0         ⮂  Go to first position of the screen line

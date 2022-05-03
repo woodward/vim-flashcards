@@ -1,3 +1,8 @@
+<ctrl>-w h  ⮂  Go to window on the left
+<ctrl>-w l  ⮂  Go to window on the right
+<ctrl>-w j  ⮂  Go to window on the top
+<ctrl>-w k  ⮂  Go to window on the bottom
+
 ctrl-w s    ⮂  Split a window
 :split      ⮂  Split a window
 

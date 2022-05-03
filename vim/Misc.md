@@ -1,4 +1,3 @@
-mx  ⮂  Mark the current position with x (x can be any letter, upper or lowercase)
 <ctrl>-^  ⮂  Switch back to the previous file (same as :e #) 
 
 global command (abbreviation g)  ⮂  Globally (on all lines) execute command  
@@ -19,38 +18,9 @@ POSIX character classes
 [:upper:]  ⮂  Uppercase characters                                                
 [:xdigit:] ⮂  Hexadecimal digits                                                  
 
-xp  ⮂  Swap two characters
-ddp  ⮂  Swap two lines
 :g/^/m0/  ⮂  Reverse the order of all the lines in the file
 
-gg   ⮂  Shortcut for 1G - go to the beginning of the file
-
-%  ⮂  Jump to the closing parentheses (or [ or {) and back again
-
-w   ⮂   Go to the start of the following word
-b   ⮂   Go to the start of the previous word
-e   ⮂   Go to the end of this word
-
-W   ⮂   Go to the start of the following WORD
-B   ⮂   Go to the start of the previous WORD
-E   ⮂   Go to the end of this WORD.
-ge  ⮂   End of previous word
-gE  ⮂   End of previous Word
-)   ⮂   Beginning of next sentence
-(   ⮂   Beginning of previous sentence
-}   ⮂   Beginning of next paragraph
-{   ⮂   Beginning of previous paragraph
-]]  ⮂   Beginning of next section
-[[  ⮂   Beginning of previous section
-][  ⮂   End of next section
-[]  ⮂   End of previous section
-
 * (resp. #) ⮂  Go to next (resp. previous) occurrence of the word under the cursor
-
-<ctrl>-w h  ⮂  Go to window on the left
-<ctrl>-w l  ⮂  Go to window on the right
-<ctrl>-w j  ⮂  Go to window on the top
-<ctrl>-w k  ⮂  Go to window on the bottom
 
 <tab> <tab> <tab> ⮂  Cycle between options, such as :Packer <tab> <tab> <tab>  Use shift-<tab> to cycle backwards
 
