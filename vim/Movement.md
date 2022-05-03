@@ -68,9 +68,9 @@ L          ⮂  Go to the bottom of the screen
 nH         ⮂  Move to the first character n lines below the top line
 nL         ⮂  Move to the first character n lines above the bottom line
 
-<ctrl>-f   ⮂  Scroll forward one screen
-<ctrl>-b   ⮂  Scroll backward one screen
-<ctrl>-d   ⮂  Scroll down half a screen
-<ctrl>-u   ⮂  Scroll up half a screen
-<ctrl>-e   ⮂  Scroll the screen down, keeping the line at the same position
-<ctrl>-y   ⮂  Scroll the screen up, keeping the line at the same position
+ctrl-f   ⮂  Scroll forward one screen
+ctrl-b   ⮂  Scroll backward one screen
+ctrl-d   ⮂  Scroll down half a screen
+ctrl-u   ⮂  Scroll up half a screen
+ctrl-e   ⮂  Scroll the screen down, keeping the line at the same position
+ctrl-y   ⮂  Scroll the screen up, keeping the line at the same position

@@ -1,4 +1,4 @@
-<ctrl>-^  ⮂  Switch back to the previous file (same as :e #) 
+ctrl-^  ⮂  Switch back to the previous file (same as :e #) 
 
 global command (abbreviation g)  ⮂  Globally (on all lines) execute command  
 global! pattern command (abbreviation g! pattern command - same as v)  ⮂  On all lines not matching pattern execute command  
@@ -121,8 +121,8 @@ https://coderwall.com/p/twr_bw/time-traveling-in-vim
 
 <spacebar>     ⮂  Right
 <backspace>    ⮂  Left
-<ctrl>-h       ⮂  Left
-<ctrl>-n       ⮂  Down
-<ctrl>-p       ⮂  Up
+ctrl-h       ⮂  Left
+ctrl-n       ⮂  Down
+ctrl-p       ⮂  Up
 
 <ctrl-g        ⮂  Show the current line number

@@ -203,7 +203,7 @@ Abbreviations expand as soon as you press a nonalphanumeric character (e.g., pun
 
 By default mapleader has the value \
 
-<ctrl>-v  ⮂  A control character so that you can use <enter>, <esc>, <backspace>, <delete> in a command to be mapped
+ctrl-v  ⮂  A control character so that you can use <enter>, <esc>, <backspace>, <delete> in a command to be mapped
 
 There are, however, three control characters that must be escaped with a ^V. They are ^T, ^W, and ^X. 
 
