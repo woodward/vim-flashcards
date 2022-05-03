@@ -193,6 +193,7 @@ Since the .exrc file is actually read by ex before it enters visual mode (vi), c
 
 :96,99!sort  ⮂  Pass lines 96 through 99 through the Unix sort filter, and replace those lines with the output of sort
 !)command    ⮂  Pass the next line through the Unix "command"
+!<motion>    ⮂  Pass the object through the Unix "command"
 
 :ab abbr phrase  ⮂  abbr is an abbreviation for the specified phrase  
 :ab imrc International Materials Research Center  ⮂  Abbreviate "imrc" to be "International Materials Research Center" 

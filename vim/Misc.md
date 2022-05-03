@@ -27,11 +27,23 @@ gg   ⮂  Shortcut for 1G - go to the beginning of the file
 
 %  ⮂  Jump to the closing parentheses (or [ or {) and back again
 
-w   ⮂   Go to the start of the following word,
+w   ⮂   Go to the start of the following word
+b   ⮂   Go to the start of the previous word
 e   ⮂   Go to the end of this word
 
-W   ⮂   Go to the start of the following WORD,
+W   ⮂   Go to the start of the following WORD
+B   ⮂   Go to the start of the previous WORD
 E   ⮂   Go to the end of this WORD.
+ge  ⮂   End of previous word
+gE  ⮂   End of previous Word
+)   ⮂   Beginning of next sentence
+(   ⮂   Beginning of previous sentence
+}   ⮂   Beginning of next paragraph
+{   ⮂   Beginning of previous paragraph
+]]  ⮂   Beginning of next section
+[[  ⮂   Beginning of previous section
+][  ⮂   End of next section
+[]  ⮂   End of previous section
 
 * (resp. #) ⮂  Go to next (resp. previous) occurrence of the word under the cursor
 
@@ -142,3 +154,9 @@ https://coderwall.com/p/twr_bw/time-traveling-in-vim
 
 :vg                  ⮂  Invert a global search; find lines which do NOT match this pattern
 :vg/.*TEST..*PROD/d  ⮂  Find lines which do NOT have TEST.*PROD in them, and delete them
+
+<spacebar>     ⮂  Right
+<backspace>    ⮂  Left
+<ctrl>-h       ⮂  Left
+<ctrl>-n       ⮂  Down
+<ctrl>-p       ⮂  Up
