@@ -12,3 +12,11 @@ R    ⮂  Begin overwriting text
 s    ⮂  Substitute a character
 S    ⮂  Substitute the entire line
 ESC  ⮂  Terminate insert mode
+
+
+The following commands work in insert mode:
+ctrl-u  ⮂  Delete the current line
+ctrl-y  ⮂  Insert the character found just above the cursor
+ctrl-e  ⮂  Insert the character found just below the cursor
+ctrl-w  ⮂  Delete the previous word
+
