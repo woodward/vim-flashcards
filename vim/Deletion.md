@@ -2,15 +2,24 @@ dw ⮂ delete word
 dW ⮂ delete word, including punctuation
 D  ⮂ deletes from the current cursor position to the end of the line. Shortcut for d$
 
+d}  ⮂  Delete next paragraph
+d^  ⮂  Delete to the beginning of the line
+d/pattern  ⮂  Delete up to the first occurrence of pattern
+dn         ⮂  Delete to the next occurrence of pattern
+dL         ⮂  Delete up to the last line on the screen
+dfx        ⮂  Delete up to and including x on the current line
+dtx        ⮂  Delete up to (but not including) x on the current line
+
 de ⮂ delete only to the end of the word (and not the space)
 
 dE ⮂ delete to the end of the word, including punctuation
 
 db ⮂ delete backward
 
-d$ ⮂ delete to the end of the line
-d0 ⮂ delete to the beginning of the line
-dd ⮂ delete line.  Same as D
+d$   ⮂  Delete to the end of the line
+d0   ⮂  Delete to the beginning of the line
+dd   ⮂  Delete line.  Same as D
+ndd  ⮂  Delete n lines 
 
 
 x  ⮂ delete a single character

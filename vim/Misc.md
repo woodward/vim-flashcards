@@ -126,3 +126,32 @@ ctrl-n       ⮂  Down
 ctrl-p       ⮂  Up
 
 <ctrl-g        ⮂  Show the current line number
+
+u~w       ⮂  Switch the case of word
+guw       ⮂  Change word to lowercase
+gUw       ⮂  Change word to uppercase
+
+
+p       ⮂  Insert the last deleted or yanked text after the cursor
+P       ⮂  Insert the last deleted or yanked text before the cursor
+gp      ⮂  Same as p, but leave the cursor at the end of the inserted text 
+gP      ⮂  Same as P, but leave the cursor at the end of the inserted text 
+]p      ⮂  Same as p, but match the current indentation 
+[p]     ⮂  Same as P, but match the current indentation 
+rx      ⮂  Replace character with x
+rtext   ⮂  Replace with new text (overwrite), beginning at cursor ESC ends replace mode 
+s       ⮂  Substitute one character
+4s      ⮂  Substitute four characters
+S       ⮂  Substitute the entire line
+u       ⮂  Undo the last change
+ctrl-r  ⮂  Redo the last change 
+U       ⮂  Restore the current line
+x       ⮂  Delete the character at the current cursor position
+X       ⮂  Delete back one character
+5X      ⮂  Delete the previous five characters
+.       ⮂  Repeat the last change
+~       ⮂  Reverse case and move the cursor right {Vim with option notildeop}
+~w      ⮂  Reverse the case of a word {Vim with option tildeop}
+~~      ⮂  Reverse the case of the line {Vim with option tildeop}
+ctrl-a  ⮂  Increment the number under the cursor 
+ctrl-x  ⮂  Decrement the number under the cursor 

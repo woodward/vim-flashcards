@@ -9,6 +9,9 @@ cn        ⮂  Change from cursor to next pattern
 cG        ⮂  Change from cursor to end of file
 c9G       ⮂  Change from cursor to line number 13
 cc        ⮂  Change current line
+cw        ⮂  Change word
+c$        ⮂  Change from current position to end of line
+C         ⮂  Change from current position to end of line (same as c$)
 
 
 
