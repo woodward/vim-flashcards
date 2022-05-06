@@ -52,6 +52,9 @@ the pattern. All lines are deleted in their entirety.
 :wq                       ⮂  Write the file and then quit the editor. The write happens unconditionally, even if the file was not changed. This updates the modification time of the file
 :wn                       ⮂  Write the file and then edit the next one
 :xit (abbreviation :x)    ⮂  Write the file and then quit (exit) the editor. The file is written only if it has been modified.
+:w filename               ⮂  Save a copy to filename
+:n,mw filename            ⮂  Write lines n to m to filename
+:n,mw >> filename         ⮂  Append lines n to m to existing filename
 
 The difference between :wq and :x is important when editing source code and using make, which performs actions based on file modification times.
 
