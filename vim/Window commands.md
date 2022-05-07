@@ -4,13 +4,17 @@ ctrl-w j  ⮂  Go to window on the top
 ctrl-w k  ⮂  Go to window on the bottom
 
 ctrl-w s    ⮂  Split a window
-:split      ⮂  Split a window
+:sp[lit]    ⮂  Split a window
 
-:vsplit     ⮂  Vertically split a window
+:vsp[lit]   ⮂  Vertically split a window
 ctrl-w v    ⮂  Vertically split a window
 
-:new        ⮂  Same as split, but create a new file
-ctrl-w n    ⮂  Same as split, but create a new file
+:sn[ext][file] ⮂  Edit the next file in the file list in the new window
+
+:new           ⮂  Same as split, but create a new file
+:new filename  ⮂  Open filename in new window
+ctrl-w n       ⮂  Same as split, but create a new file
+ctrl-w ^       ⮂  Open the new window with the alternate (previously edited) file
 
 :sview      ⮂  Read-only version of split
 :sfind      ⮂  Split the window and open file
@@ -19,6 +23,7 @@ ctrl-w w         ⮂  Move to the next window below or to the right. Note that t
 
 ctrl-w downarrow ⮂  Move to the next window down (does not cycle through windows)
 ctrl-w j         ⮂  Move to the next window down (does not cycle through windows)
+ctrl-w p         ⮂  Move to the previous window
 
 ctrl-w uparrow   ⮂  Move to the next window up (does not cycle through windows)
 ctrl-w k         ⮂  Move to the next window up (does not cycle through windows)
@@ -67,8 +72,9 @@ ctrl-pagedown         ⮂  Move one tab to the right
 ctrl-pageup           ⮂  Move one tab to the left
 
 ctrl-w q              ⮂  Quit the current window.  Same as :quit command
-ctrl-w c              ⮂  Close the current window.  If the window is on a tab and it's the last window for the tab, the window and the tab are closed
+ctrl-w c              ⮂  Close the current window.  If the window is on a tab and it's the last window for the tab, the window and the tab are closed. Same as :close
 :close[!]             ⮂  Close the current window (the ! makes it close even if there are changes)
-ctrl-w o              ⮂  Close all of the windows except the current window
+ctrl-w o              ⮂  Close all of the windows except the current window.  Same as :only
 :only[!]              ⮂  Close all of the windows except the current window (the ! closes them even if there are changes)
 :hide[cmd]            ⮂  Close the current window and hide the buffer; execute cmd if it is present  
+:res[ize] num         ⮂  Resize the window to num lines
