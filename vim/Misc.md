@@ -156,3 +156,7 @@ X       ⮂  Delete back one character
 ~~      ⮂  Reverse the case of the line {Vim with option tildeop}
 ctrl-a  ⮂  Increment the number under the cursor 
 ctrl-x  ⮂  Decrement the number under the cursor 
+
+<%      ⮂  Shift left until the matching parenthesis, brace, or bracket. (The cursor must be on the matching symbol.)
+K       ⮂  Look up the word under the cursor in the manual pages (or via the program defined in keywordprg).
+ctrl-^  ⮂  Return to the previously edited file.
