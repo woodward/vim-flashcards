@@ -160,3 +160,7 @@ ctrl-x  ⮂  Decrement the number under the cursor
 <%      ⮂  Shift left until the matching parenthesis, brace, or bracket. (The cursor must be on the matching symbol.)
 K       ⮂  Look up the word under the cursor in the manual pages (or via the program defined in keywordprg).
 ctrl-^  ⮂  Return to the previously edited file.
+
+:1,5j!  ⮂  Join the first five lines, preserving whitespace
+
+:ju[mps]  ⮂  Print the jump list used with the ctrl-i and ctrl-o commands

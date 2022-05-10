@@ -36,3 +36,7 @@ dn        ⮂  Delete from cursor to next pattern
 dG        ⮂  Delete from cursor to end of file
 d9G       ⮂  Delete from cursor to line number 13
 "a5dd     ⮂  Delete five lines into register a
+
+:/Part I/,/Part II/-1d  ⮂  Delete to the line above “Part II”
+:/main/+d               ⮂  Delete the line below “main”
+:.,$d x                 ⮂  Delete from this line to the last line into register x
