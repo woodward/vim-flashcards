@@ -59,8 +59,8 @@ ctrl-v  ⮂  Block visual mode
 :{range}!sort      ⮂  Sort using the Unix sort
 :{range}!sort -r   ⮂  Sort in reverse using the Unix sort
 
-:wa  ⮂  Write all changed files (save all changes), and keep working
-:qa  ⮂  Close all buffers and exit
+:wa     ⮂  Write all changed files (save all changes), and keep working
+:qa[!]  ⮂  Close all buffers and exit (! loses the current edits)
 
 ctrl-v and then shift-i  ⮂  Go into insert mode in column mode. Kind of bogus; doesn't show you the changes while they are happening
 
