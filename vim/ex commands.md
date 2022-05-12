@@ -50,6 +50,7 @@ the pattern. All lines are deleted in their entirety.
 :write (abbveviation :w)  ⮂  Write (save) the buffer to the file but do not exit
 :quit (abbreviation :q)   ⮂  Quit the editor (and return to the shell prompt)
 :wq                       ⮂  Write the file and then quit the editor. The write happens unconditionally, even if the file was not changed. This updates the modification time of the file
+:wqa                      ⮂  Write all changed buffers and quit the editor
 :wn                       ⮂  Write the file and then edit the next one
 :xit (abbreviation :x)    ⮂  Write the file and then quit (exit) the editor. The file is written only if it has been modified.
 :w filename               ⮂  Save a copy to filename
